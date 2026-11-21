@@ -3,7 +3,7 @@ Event Search Android App
 
 An Android app I built for a course project. You search for events (concerts, sports, theatre, etc.) near you, look at the details, save favorites, and tweet about them. It's the mobile version of my earlier web app and uses the same Node.js backend.
 
-Demo video: https://youtu.be/8FFdW4KNa5I
+
 
 What it does?
 
