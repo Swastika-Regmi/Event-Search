@@ -1,114 +1,27 @@
-# Event-Search-Android-App
+
+Event Search Android App
+
+An Android app I built for a course project. You search for events (concerts, sports, theatre, etc.) near you, look at the details, save favorites, and tweet about them. It's the mobile version of my earlier web app and uses the same Node.js backend.
 
 Demo video: https://youtu.be/8FFdW4KNa5I
 
+What it does?
 
+Search by keyword (with autocomplete), category, distance and location
+Event details with Event, Artist/Team and Venue tabs
+Artist info from Spotify for music events, plus a map for the venue
+Upcoming events at a venue, with sorting
+Favorites saved on the device
 
-## Snapshots for detail
-
-###  
-### Initial page
-
-![alt text](/snapshots/initial.png) <br>
-
-
-
-###  
-### Error Checking
-
-![alt text](/snapshots/error-checking.png) <br>
-
-
-
-###  
-### Auto-complete
-
-![alt text](/snapshots/autocomplete.png) <br>
+Built with
+Java, Android Studio, Volley, Glide, Google Maps SDK
+Running it
+Clone the repo and open it in Android Studio.
+Put your own Google Maps API key in AndroidManifest.xml and app/src/debug/res/values/google_maps_api.xml.
+The backend URL is hard-coded in the Java files. The old server may be down, so you'll need to host the backend yourself and change the URL.
+Run it on an emulator or a phone.
 
 
 
-###  
-### Search Result
-
-![alt text](/snapshots/search_result.png) <br>
 
 
-
-###  
-### Details of an event
-
-![alt text](/snapshots/event_detail.png) <br>
-
-
-
-###  
-### Pics of "Artists/Teams" tab
-
-![alt text](/snapshots/teams1.png) <br>
-
-###  
-### Pics of "Artists/Teams" tab (cont.)
-
-![alt text](/snapshots/teams2.png) <br>
-
-
-
-###  
-### Pics of "Venue" tab
-
-![alt text](/snapshots/venue1.png) <br>
-
-###  
-### Pics of "Venue" tab (cont.)
-
-![alt text](/snapshots/venue2.png) <br>
-
-
-
-###  
-### Upcoming Events (These events can be sorted by Default, Event Name, Time, Artist, and Type in ascending or descending order)
-
-![alt text](/snapshots/upcoming.png) <br>
-
-###  
-### Upcoming Events (cont.)
-
-![alt text](/snapshots/upcoming_sort.png) <br>
-
-
-
-###  
-### If an artist is related to music, some data from Spotify API will be shown
-
-![alt text](/snapshots/artist.png) <br>
-
-
-
-###  
-### User can add events to or remove events from favorite list
-#### Add to favorite
-
-![alt text](/snapshots/add_to_favorite.png) <br>
-
-#### Remove from favorite
-
-![alt text](/snapshots/remove_from_favorite.png) <br>
-
-
-
-###  
-### When user click the "Favorite Button" (the heart), the corresponding event can be found in favorite tab
-
-![alt text](/snapshots/favorite1.png) <br>
-
-###  
-### Favorite tab (cont.)
-
-![alt text](/snapshots/favorite2.png) <br>
-
-
-
-###  
-### User can also post on Twitter about an event if he/she clicks the "twitter" button
-
-![alt text](/snapshots/twitter.png) <br>
